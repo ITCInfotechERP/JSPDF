@@ -14,7 +14,7 @@ sap.ui.define([
 
 			// })
 		},
-
+		//Code
 		//To save the particular div section as PDF
 		submit: function () {
 
@@ -31,7 +31,7 @@ sap.ui.define([
 
 			var header =
 				'<div id = "ignorePDF"><h1> Avoid me in PDF</h1></div><div><center><table  width="200" border="0" cellpadding="0" cellspacing="0">' +
-				"<center><h1 style= 'color: #1b364c';><u>User Details</u></h1> </center>" +
+				"<center><h1 style= 'color: #1b364c';><u>Common User Details</u></h1> </center>" +
 				'<tr><td>Name</td> <td>' + name + '</td></tr><tr><td align="center">Location</td>' +
 				"<td>" + location +
 				"</td></tr><tr><td align='center'>PSID</td><td style ='padding-top: 18px;padding-left: 100px;'>" + psid +
