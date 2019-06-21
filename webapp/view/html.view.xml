@@ -1,0 +1,27 @@
+<mvc:View controllerName="com.altasnim.formtopdf.controller.html" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<App id="idAppControl">
+		<Page title="HTML TO PDF">
+			<content>
+				<VBox class="sapUiSmallMargin">
+					<f:SimpleForm id="SimpleFormDisplay354wide" editable="false" layout="ResponsiveGridLayout" title="Address" labelSpanXL="4" labelSpanL="3"
+						labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2"
+						columnsL="1" columnsM="1" singleContainerFullSize="false">
+						<f:content>
+							<Label text="Name" class="sapUiSmallMarginTop"/>
+							<Input id="nameText" value="Jack Cranford"/>
+							<Label text="PSID" class="sapUiSmallMarginTop"/>
+							<Input id="psid" value="29637"/>
+							<Label text="Location" class="sapUiSmallMarginTop"/>
+							<Input id="location" value="Bangalore"/>
+							<Label text="Company" class="sapUiSmallMarginTop"/>
+							<Input id="company" value="ITC Infotech India Ltd."/>
+							<Button text="Submit" id="submitButton" press="submit"/>
+							<!--<Button text="Example" press="submit"/>-->
+						</f:content>
+					</f:SimpleForm>
+				</VBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>

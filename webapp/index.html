@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>formtopdf</title>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-cachebuster/sap-ui-core.js"
+			data-sap-ui-async="true"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"com.altasnim.formtopdf": "./"}'>
+		</script>
+	
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "com.altasnim.formtopdf"
+					})
+				}).placeAt("content");
+			});
+		</script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>-->
+        
+        <script src="https://unpkg.com/jspdf@latest/dist/jspdf.min.js"></script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
